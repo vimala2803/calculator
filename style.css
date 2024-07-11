@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/back-school-decoration-with-pencils-calculator-space_23-2147662344.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: azure;
+    font-size: x-large;
+}
+table,tr,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    width:100px;
+    height: 100px;
+    font-weight: 900;
+}
+
+div{
+    background-color: rgb(113, 135, 154);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 550px;
+
+}
+
+button{
+    width:100px;
+    height: 100px;
+    font-size: xx-large;
+    background-color: rgb(254, 112, 112);
+    color: white;
+}
+
+button:hover{
+    color:aqua
+}
+
+input{
+    width:430px;
+    height: 70px;
+    margin-bottom: 50px;
+    border: 3px solid black;
+    font-size: x-large;
+}
+
+#result:focus{
+    background-color: hotpink;
+    color: white;
+}
